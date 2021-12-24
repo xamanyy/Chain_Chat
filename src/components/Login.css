@@ -1,0 +1,40 @@
+
+
+.bg{
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-img{
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+}
+
+
+.user{
+  display: flex;
+  flex-direction:  column;
+  position: absolute;
+  justify-content: center;
+  align-items: center; 
+  height: 80%;
+  width: 100%;
+
+}
+.User-pic{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  object-fit:fill;
+}
+
+.login-btn{
+ padding: 12px 40px 12px 40px;
+ background-color: transparent;
+ border-color:white ;
+ color: white;
+ font-weight: bold;
+ font-size: large;
+}
