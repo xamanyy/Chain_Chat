@@ -1,0 +1,100 @@
+.sec-content {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin-top: 60px; */
+  height: 100px;
+  width: 100px;
+  border: 6px solid black;
+  border-radius: 50%;
+  object-fit:cover;
+}
+
+
+.user-pic{
+ object-fit: cover;
+ border-radius: 50%;
+ width: 100%;
+ height: 100%;
+}
+
+.avatar{
+  height: 120px;
+  width: 120px;
+  /* position: relative; */
+  border: 7px solid;
+  border-color: goldenrod;
+  border-radius: 50%;
+}
+
+.wlc-text{
+  font-size: 32px;
+  color:  goldenrod;
+  margin-top: - 20px;
+}
+
+.address{
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top:-25px;
+}
+
+.user-details{
+  height: 300px;
+  margin-top: 65px;
+  align-items: center;
+  text-align: center;
+}
+
+.container{
+  background-color: black;
+  height: 280px;
+  width: 1280px;
+  margin: auto;
+  /* margin-top: 30px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-radius: 6px;
+}
+
+.changeUser{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* padding-right: 70px;  */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .sec-content{
+visibility: hidden;
+  }
+
+  .user-details{
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1980px)
+{
+  .sec-content{
+display: visible;
+  }
+  .avatar{
+    margin: auto;
+  }
+}

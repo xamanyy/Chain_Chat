@@ -1,0 +1,10 @@
+.ava{
+  position: fill;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.ava:hover{
+  opacity: 0.75;
+}
