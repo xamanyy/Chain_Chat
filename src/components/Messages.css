@@ -1,0 +1,31 @@
+.primary{
+  padding-bottom: 48px;
+}
+
+.secondary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send{
+  display: flex;
+  justify-content: center;
+}
+
+.uptoDate{
+  text-align: center;
+  color:gray;
+  margin-top:5px;
+}
+
+.each-msg{
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:2px;
+  /* justify-content: center; */
+}

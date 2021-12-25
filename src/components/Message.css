@@ -1,0 +1,89 @@
+.msg{
+  display: flex;
+  padding: 5px;
+}
+
+.isUser{
+
+  display: flex;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 6px;
+  background-color: greenyellow;
+  }
+
+  .notUser{
+  display: flex;
+  padding-left: 14px;
+  border-radius: 6px;
+  padding-right: 14px;
+  background-color: cyan;
+  }
+
+  .iser{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-bottom: 25px;
+  }
+
+  .nser{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+     margin-bottom: 25px;
+      align-items: center;
+  }
+
+  .deco{
+    position: relative;
+    padding: 4px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    order: 1;
+  }
+
+  .ndeco{
+    position: relative;
+    padding: 4px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .usr{
+    position: absolute;
+    font-size: 10px;
+    bottom: -22px;
+    /* text-align: center; */
+    font-style: italic;
+    color:greenyellow;
+    right: 7px;
+  }
+  .nusr{
+    position: absolute;
+    font-size: 10px;
+    bottom: -22px;
+    /* text-align: center; */
+    font-style: italic;
+    color:cyan;
+    left: 7px;
+  }
+
+  .usertimestamp{
+    font-size: 10px;
+    font-style: italic;
+    color: gray;
+    order:-5;
+    padding-right: 6px;
+  }
+
+  .nusertimestamp{
+    font-size: 10px;
+    font-style: italic;
+    color: gray;
+      padding-left: 6px;
+  }

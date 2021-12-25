@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 import Login from "./components/Login"
 import {useMoralis} from 'react-moralis'
