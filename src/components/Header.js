@@ -1,5 +1,5 @@
 import { useMoralis } from "react-moralis"
-import profile from "../assets/Photo.png"
+// import profile from "../assets/Photo.png"
 import "../components/Header.css"
 import Avatar from "../components/Avatar.js"
 import ChangeUsername from "../components/ChangeUsername";
@@ -10,9 +10,9 @@ const {user} = useMoralis();
   return (
     <div>
       <div className="container">
-        <div className="sec-content">
+        {/* <div className="sec-content">
           <img src={profile} alt=".." className="user-pic" />
-        </div>
+        </div> */}
 
         <div className="user-details">
           <div className="avatar">
